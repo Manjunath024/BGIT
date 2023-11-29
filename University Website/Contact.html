@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BGTI*</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+
+        <h1>Contact Us</h1>
+    </section>
+
+<!-------------Contact Us-------------->    
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.9950743113754!2d78.70459!3d17.315786799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb0b1c41f16297%3A0x2c64ed4620c70713!2sBrilliant%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1700503773569!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Abdullapur met, near Ramoji Film City.</h5>
+                    <p> Hyderabad, Telangana</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 0123456789</h5>
+                    <p>Monday to Saturday, 8Am to to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>manjunathh.ganji@gmail.com</h5>
+                    <p>Email Us your Query</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+    <h3>Contact us HERE</h3>
+    
+    <form action="forms-handler.php" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <input type="text" name="phone humber" placeholder="Mobile number" required>
+        <input type="text" name="subject" placeholder="Your Query" required>
+        <textarea rows="8" name="message" placeholder="your Message" required></textarea>
+        <button type="submit" class="hero-btn red-btn" id="btnnn">Send Message</button>
+    </form>
+    <p id="thank-you-message">Thank you for contacting us. We will be in touch with you very soon.</p>
+</div>
+    </div>
+  <!-- <div id='card' class="animated fadeIn" onclick="SubmitEvent">
+        <div id='upper-side'>
+          <?xml version="1.0" encoding="utf-8"?>
+             Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  
+            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+            <svg version="1.1" id="checkmark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve">
+              <path d="M131.583,92.152l-0.026-0.041c-0.713-1.118-2.197-1.447-3.316-0.734l-31.782,20.257l-4.74-12.65
+          c-0.483-1.29-1.882-1.958-3.124-1.493l-0.045,0.017c-1.242,0.465-1.857,1.888-1.374,3.178l5.763,15.382
+          c0.131,0.351,0.334,0.65,0.579,0.898c0.028,0.029,0.06,0.052,0.089,0.08c0.08,0.073,0.159,0.147,0.246,0.209
+          c0.071,0.051,0.147,0.091,0.222,0.133c0.058,0.033,0.115,0.069,0.175,0.097c0.081,0.037,0.165,0.063,0.249,0.091
+          c0.065,0.022,0.128,0.047,0.195,0.063c0.079,0.019,0.159,0.026,0.239,0.037c0.074,0.01,0.147,0.024,0.221,0.027
+          c0.097,0.004,0.194-0.006,0.292-0.014c0.055-0.005,0.109-0.003,0.163-0.012c0.323-0.048,0.641-0.16,0.933-0.346l34.305-21.865
+          C131.967,94.755,132.296,93.271,131.583,92.152z" />
+              <circle fill="none" stroke="#ffffff" stroke-width="5" stroke-miterlimit="10" cx="109.486" cy="104.353" r="32.53" />
+            </svg>
+            <h3 id='status'>
+            Success
+          </h3>
+        </div>
+        <div id='lower-side'>
+          <p id='message'>
+            Congratulations, your query has been reached us successfully.
+          </p>
+          <a href="#" id="contBtn">Continue</a>
+        </div>
+      </div> -->
+</section>
+
+<!-------------FOOTER------- ------->
+<section class="footer">
+    <h4>ABOUT ME</h4>
+    <p>
+        This is an Experimental website,<br> made by a student studying in btech.<br>
+       <br>
+        The name is Manjunath
+
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Inspired from <i class="fa fa-heart-o"></i>Amazon</p>
+</section>
+
+
+
+
+
+
+
+    <!--------------------JavaScript For Toggle Menu-------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>

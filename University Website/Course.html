@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BGTI*</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+
+        <h1>Our Courses</h1>
+    </section>
+
+<!--------------------------COURSE--------------------------------->
+<section class="course">
+    <h1>Courses We Offer</h1>   
+    <p> we have all the demanded couses to offer</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Computer Science Engineering</h3>
+            <p> Computer science is the study and development of the protocols required for automated processing and manipulation of data. This includes, for example, creating algorithms for efficiently searching large volumes of information or encrypting data so that it can be stored and transmitted securely. </p>
+        </div>
+        <div class="course-col">
+            <h3>B-Pharmacy</h3>
+            <p> A Bachelor of Pharmacy (abbreviated B Pharm or PharmB or BS Pharm) is a graduate academic degree in the field of pharmacy. In many countries, this degree is a prerequisite for registration to practice as a pharmacist. Since both PharmB and PharmD are prerequisites to license in most western countries they're considered equivalent. </p>
+        </div>
+        <div class="course-col">
+            <h3>Diploma and lateral entries</h3>
+            <p> The main difference between both is that B.Tech Lateral Entry requires students to have completed a diploma in engineering or a BSc with mathematics to enroll directly in the second year of a B Tech course. On the other hand, the regular B.Tech program requires students to complete 10+2 or an equivalent exam for enrollment. </p>
+        </div>
+       
+    </div>
+    And Many More!
+</section>
+<!--------------------------Facilities-------------------------------->
+<!--<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/library2.jpg">
+            <h3>World Class Library</h3>
+            <p> Brilliant Engineering College established a spacious Central Library with multistoried building an area of 1074 sqm. It started its function with a vision to serve the information needs of its users and to promote a continuous learning atmosphere with holding various Text Books, Reference Books, eBooks, Journals, Magazines, eJournals, Subject PPT’s, Subject Animations, Project Reports, Tutorials and Video Lessons related to engineering and allied subjects. Central Library provides abundant information and intellectual requirements to the students and faculty with a user friendly approach. It offers a fully integrated and peaceful environment for conducting academic study. </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="Images/playground.jpg">
+            <h3>Largest Play Ground</h3>
+            <p> The college has a full fledged Physical Training Department for the students. Students are trained in various sports and games by well experienced and qualified Instructors of the department. The college playground is always bubbling with outdoor activities like Cricket, Football, and Hockey etc. There are courts for Volley-ball and Basket-ball. Besides the indoor game facilities available in the student’s hostels, there stands a beautiful architectural Multi-Activity Centre, housed in which an Indoor Auditorium, a gymnasium with latest equipments, etc. The auditorium provides Table-tennis, Badminton facilities. Every year, inter-college cricket and football tournaments are conducted in the college. The students of the college also participate in various sports and games competitions elsewhere to represent the college. </p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="Images/cafeteria.png">
+            <h3>Tasty And Healty Food</h3>
+            <p> The college is a large spacious area with the variety of refreshments and meals available it tends to be the most popular place on campus, not only for physical refreshments but also for student bonding, discussions and even work on assignments and projects. College canteen provides delicious and hygienic food at very affordable prices. South Indian, north Indian, Chinese food both vegetarian and non vegetarian are available. </p>
+        </div>
+    </div>
+
+</section>-->
+
+<!-------------FOOTER-------------->
+<section class="footer">
+    <h4>ABOUT ME</h4>
+    <p>
+        This is an Experimental website,<br> made by a student studying in btech.<br>
+       <br>
+        The name is Manjunath
+
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram" href="https://instagram.com/mikki.in._?igshid=YTQwZjQ0NmI0OA=="></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Inspired from <i class="fa fa-heart-o"></i>Amazon</p>
+</section>
+
+
+
+
+
+    <!--------------------JavaScript For Toggle Menu-------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>
